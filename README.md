@@ -7,7 +7,7 @@ Please download data from the [here](https://snap.stanford.edu/jodie/) and pre-p
 
 # How to use
 
-For temporal link prediction Task, for example, please run:
+For the temporal link prediction task, for example, please run:
 
 ```
 python train_self_supervised.py --data [DATA] --bs [batch_size] --m_bs [mini_batch_size] --count_dim [xx] --block_number [2,3...]
@@ -17,7 +17,7 @@ For the node classification task, for example, please run:
 ```
 python train_supervised.py --data [DATA] --bs [batch_size] --m_bs [mini_batch_size] --count_dim [xx] --block_number [2,3...]
 ```
-Just so you know, you should run the temporal link prediction task first.
+You should run the temporal link prediction task first.
 
 # Cite
 
